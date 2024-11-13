@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ActionBar {
+    background-color: #2563eb;
+    color: white;
+}
+
+.property-card {
+    elevation: 2;
+    background-color: white;
+    border-radius: 8;
+}
+
+.property-card:hover {
+    elevation: 4;
+    transform: scale(1.02);
+}
+
+SearchBar {
+    background-color: #f3f4f6;
+    border-radius: 8;
+}
+
+Button {
+    font-size: 14;
+    font-weight: 600;
+    padding: 12;
+    border-radius: 8;
+}
+
+Button:hover {
+    opacity: 0.9;
+}
+
+.input {
+    font-size: 14;
+    padding: 8;
+    margin: 4;
+    background-color: white;
+    border-width: 1;
+    border-color: #e2e8f0;
+    border-radius: 4;
+}
